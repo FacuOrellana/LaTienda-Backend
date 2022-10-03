@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c2783b98-e37e-43d8-aa2b-b67df1e24dc2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://istp1service.azurewebsites.net/LoginService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoginService.wsdl" MetadataType="Wsdl" ID="9cb36a61-2fc4-4d0f-a001-6f4bada279cf" SourceId="1" SourceUrl="http://istp1service.azurewebsites.net/LoginService.svc?wsdl" />
+    <MetadataFile FileName="LoginService.xsd" MetadataType="Schema" ID="9961a402-aec6-437d-bac8-1cc5d034ade7" SourceId="1" SourceUrl="http://istp1service.azurewebsites.net/LoginService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LoginService1.xsd" MetadataType="Schema" ID="20b3045e-1d2a-44c0-a014-59d9a2307dd2" SourceId="1" SourceUrl="http://istp1service.azurewebsites.net/LoginService.svc?xsd=xsd1" />
+    <MetadataFile FileName="LoginService1.wsdl" MetadataType="Wsdl" ID="4a24847c-7e29-4895-b86f-506f2e361084" SourceId="1" SourceUrl="http://istp1service.azurewebsites.net/LoginService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="LoginService2.xsd" MetadataType="Schema" ID="cf4df769-7e52-4299-b0db-bbe3c50c4b30" SourceId="1" SourceUrl="http://istp1service.azurewebsites.net/LoginService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

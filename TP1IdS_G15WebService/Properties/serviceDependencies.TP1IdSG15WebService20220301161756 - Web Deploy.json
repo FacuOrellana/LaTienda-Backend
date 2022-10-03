@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/gestorinventariobackenddbserver/databases/TP1IDS_G15_DB",
+      "type": "mssql.azure",
+      "connectionId": "TP1IDS_G15_DB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
